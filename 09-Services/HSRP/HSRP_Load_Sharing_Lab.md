@@ -1,5 +1,4 @@
 # Configure and Verify HSRP Load Sharing
-![HSRP Load Sharing Topology](images/hsrp-load-sharing-topology.png)
 
 ## Lab Objective
 This lab demonstrates how **HSRP load sharing** can be achieved by configuring **multiple HSRP groups with different virtual IP addresses (VIPs)** on the same LAN.
