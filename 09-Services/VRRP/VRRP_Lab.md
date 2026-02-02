@@ -41,7 +41,7 @@ Implement and validate **VRRP** as a first-hop redundancy protocol (FHRP) for an
 - VRRP runs on the **LAN segment (192.168.1.0/24)** using **VRID 1** and VIP **192.168.1.254**.
 - **R1** is preferred Master using a higher priority (**110**) than **R2** (default **100** if not set).
 - PCs use **192.168.1.254** as their default gateway.
-- Edge router uses **IP SLA + tracked routes** so return traffic follows the currently reachable path (as in your previous HSRP labs).
+- Edge router uses **IP SLA + tracked routes** so return traffic follows the currently reachable path
 
 
 ## Configurations
