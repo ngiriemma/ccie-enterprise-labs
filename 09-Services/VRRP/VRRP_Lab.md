@@ -43,9 +43,6 @@ Implement and validate **VRRP** as a first-hop redundancy protocol (FHRP) for an
 - PCs use **192.168.1.254** as their default gateway.
 - Edge router uses **IP SLA + tracked routes** so return traffic follows the currently reachable path (as in your previous HSRP labs).
 
-> Important: In your pasted config, **R1 G0/1 shows `shutdown`**. VRRP will not work if the LAN interface is administratively down. Ensure the LAN interface is **no shutdown**.
-
----
 
 ## Configurations
 
